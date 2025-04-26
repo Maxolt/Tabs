@@ -1,0 +1,83 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom right, rgb(94, 94, 94), rgb(49, 49, 49));
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#panel {
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#tablist {
+
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.tab {
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-inline: 10px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 120px;
+    height: min-content;
+}
+
+.tab:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+#content {
+    place-self: center;
+    width: 75%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    justify-self: center;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+}
+#examplebox {
+    justify-self: center;
+    background-color: rgb(210, 210, 210);
+    width: 75%;
+    height: 50%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(150, 150, 150);
+}
+#example {
+    margin: 10px;
+    width: 90%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
